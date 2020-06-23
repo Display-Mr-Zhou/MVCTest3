@@ -45,4 +45,7 @@ public class Controller extends HttpServlet {
         request.getRequestDispatcher(path).forward(request,response);
 
     }
+    public void test(){
+        System.out.println("就这？");
+    }
 }
